@@ -859,6 +859,9 @@ MonoBehaviour:
   speed: 15
   xRange: 22
   projectilePrefab: {fileID: 6254051992656101312, guid: a4ce7896231fffc44bc6e311e504d554, type: 3}
+  zMin: -1.5
+  zMax: 15.5
+  verticalInput: 0
 --- !u!1001 &4971018042631973959
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1081,6 +1084,10 @@ PrefabInstance:
     - target: {fileID: 2049443583097174981, guid: cb7b93853668e1740b3efef63dfa7f37, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586875053077834008, guid: cb7b93853668e1740b3efef63dfa7f37, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
